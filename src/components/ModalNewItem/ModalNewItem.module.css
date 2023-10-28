@@ -1,0 +1,54 @@
+.modalContainer {
+  background: #00000033;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 998;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.modalContent {
+  z-index: 999;
+  position: relative;
+  background: #fafafa;
+  border-radius: 0.6rem;
+  height: 10rem;
+  min-width: 90%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modalBtnClose {
+  position: absolute;
+  background: transparent;
+  border: none;
+  top: 1rem;
+  right: 1rem;
+}
+
+.modalInput {
+  padding: 0.5rem;
+  border: 0.1rem solid #33333355;
+  border-radius: 0.4rem;
+}
+
+.modalBtnContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.modalBtnAdd {
+  border: none;
+  border-radius: 0.2rem;
+  font-weight: 500;
+  padding: 0.3rem;
+}
